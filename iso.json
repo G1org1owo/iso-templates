@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Windows10",
+        "iso_url": null,
+        "help": "https://www.microsoft.com/en-us/software-download/windows10ISO",
+        "os_family": "windows",
+        "os_flavour": "windows10"
+    },
+    {
+        "name": "Windows11",
+        "iso_url": null,
+        "help": "https://www.microsoft.com/en-us/software-download/windows11",
+        "os_family": "windows",
+        "os_flavour": "windows11"
+    },
+    {
+        "name": "Ubuntu",
+        "iso_url": "https://releases.ubuntu.com/22.04.2/ubuntu-22.04.2-desktop-amd64.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "ubuntu"
+    },
+    {
+        "name": "Pop!_OS",
+        "iso_url": "https://iso.pop-os.org/22.04/amd64/nvidia/23/pop-os_22.04_amd64_nvidia_23.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "pop"
+    },
+    {
+        "name": "Mint",
+        "iso_url": "https://mirror.init7.net/linuxmint-iso/stable/21.1/linuxmint-21.1-cinnamon-64bit.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "mint"
+    },
+    {
+        "name": "Debian",
+        "iso_url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.6.0-amd64-netinst.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "debian"
+    },
+    {
+        "name": "Rocky Linux 8",
+        "iso_url": "https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "rocky8"
+    },
+    {
+        "name": "Rocky Linux 9",
+        "iso_url": "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-minimal.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "rocky9"
+    },
+    {
+        "name": "AtomOS",
+        "iso_url": "https://repo.elemento.cloud/iso/AtomOS.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "atomos"
+    }
+]
+
