@@ -35,11 +35,32 @@
         "os_flavour": "mint"
     },
     {
+        "name": "ArchLinux",
+        "iso_url": "https://geo.mirror.pkgbuild.com/iso/2023.03.01/archlinux-2023.03.01-x86_64.iso",
+        "help": "https://archlinux.org",
+        "os_family": "linux",
+        "os_flavour": "arch"
+    },
+    {
+        "name": "TempleOS",
+        "iso_url": "https://templeos.org/Downloads/TempleOS.ISO",
+        "help": "https://templeos.org",
+        "os_family": "linux",
+        "os_flavour": "temple"
+    },
+    {
         "name": "Debian",
         "iso_url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.6.0-amd64-netinst.iso",
         "help": "",
         "os_family": "linux",
         "os_flavour": "debian"
+    },
+    {
+        "name": "Fedora",
+        "iso_url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso",
+        "help": "https://getfedora.org/en/workstation/download/",
+        "os_family": "linux",
+        "os_flavour": "fedora"
     },
     {
         "name": "Rocky Linux 8",
