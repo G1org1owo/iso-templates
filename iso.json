@@ -63,18 +63,25 @@
         "os_flavour": "fedora"
     },
     {
-        "name": "Rocky Linux 8",
-        "iso_url": "https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso",
-        "help": "",
-        "os_family": "linux",
-        "os_flavour": "rocky8"
-    },
-    {
-        "name": "Rocky Linux 9",
+        "name": "Rocky Linux",
         "iso_url": "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-minimal.iso",
         "help": "",
         "os_family": "linux",
         "os_flavour": "rocky9"
+    },
+    {
+        "name": "AlmaLinux",
+        "iso_url": "http://almalinux.mirror.garr.it/9.1/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "almalinux"
+    },
+    {
+        "name": "OpenMandriva",
+        "iso_url": "https://archive.org/download/openmandriva.rome-23.01-plasma.x86_64/openmandriva.rome-23.01-plasma.x86_64.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "openmandriva"
     },
     {
         "name": "AtomOS",
