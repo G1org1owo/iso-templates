@@ -14,6 +14,13 @@
         "os_flavour": "windows11"
     },
     {
+        "name": "WindowsXP",
+        "iso_url": null,
+        "help": "https://support.microsoft.com/en-us/windows/windows-xp-support-has-ended-47b944b8-f4d3-82f2-9acc-21c79ee6ef5e",
+        "os_family": "windows",
+        "os_flavour": "windowsxp"
+    },
+    {
         "name": "Ubuntu",
         "iso_url": "https://releases.ubuntu.com/22.04.2/ubuntu-22.04.2-desktop-amd64.iso",
         "help": "",
