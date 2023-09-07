@@ -42,6 +42,13 @@
         "os_flavour": "arch"
     },
     {
+        "name": "Manjaro",
+        "iso_url": "https://download.manjaro.org/xfce/23.0/manjaro-xfce-23.0-230903-linux65.iso",
+        "help": "https://manjaro.org",
+        "os_family": "linux",
+        "os_flavour": "arch"
+    },
+    {
         "name": "TempleOS",
         "iso_url": "https://templeos.org/Downloads/TempleOS.ISO",
         "help": "https://templeos.org",
