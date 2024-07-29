@@ -1,0 +1,73 @@
+[
+   {
+      "alt_server" : {
+         "help" : "",
+         "iso_url" : null,
+         "name" : "WindowsServer2019",
+         "os_family" : "windows",
+         "os_flavour" : "winserver19"
+      },
+      "consumer" : {
+         "help" : "https://www.microsoft.com/en-us/software-download/windows10ISO",
+         "iso_url" : null,
+         "name" : "Windows10",
+         "os_family" : "windows",
+         "os_flavour" : "windows10"
+      },
+      "server" : {
+         "help" : "",
+         "iso_url" : null,
+         "name" : "WindowsServer2016",
+         "os_family" : "windows",
+         "os_flavour" : "winserver16"
+      }
+   },
+   {
+      "consumer" : {
+         "help" : "https://www.microsoft.com/en-us/software-download/windows11",
+         "iso_url" : null,
+         "name" : "Windows11",
+         "os_family" : "windows",
+         "os_flavour" : "windows11"
+      },
+      "server" : {
+         "help" : "",
+         "iso_url" : null,
+         "name" : "WindowsServer2022",
+         "os_family" : "windows",
+         "os_flavour" : "winserver22"
+      }
+   },
+   {
+      "consumer" : {
+         "help" : "https://support.microsoft.com/en-us/windows/windows-xp-support-has-ended-47b944b8-f4d3-82f2-9acc-21c79ee6ef5e",
+         "iso_url" : null,
+         "name" : "WindowsXP",
+         "os_family" : "windows",
+         "os_flavour" : "windowsxp"
+      },
+      "server" : {
+         "help" : "",
+         "iso_url" : null,
+         "name" : "WindowsServer2003",
+         "os_family" : "windows",
+         "os_flavour" : "winserver03"
+      }
+   },
+   {
+      "consumer" : {
+         "help" : "https://learn.microsoft.com/en-au/lifecycle/products/windows-7",
+         "iso_url" : null,
+         "name" : "Windows7",
+         "os_family" : "windows",
+         "os_flavour" : "windows7"
+      },
+      "server" : {
+         "help" : "",
+         "iso_url" : null,
+         "name" : "WindowsServer2012",
+         "os_family" : "windows",
+         "os_flavour" : "winserver12"
+      }
+   }
+]
