@@ -1,5 +1,19 @@
 [
     {
+        "name": "WindowsXP",
+        "iso_url": null,
+        "help": "https://support.microsoft.com/en-us/windows/windows-xp-support-has-ended-47b944b8-f4d3-82f2-9acc-21c79ee6ef5e",
+        "os_family": "windows",
+        "os_flavour": "windowsxp"
+    },
+    {
+        "name": "Windows7",
+        "iso_url": null,
+        "help": "https://learn.microsoft.com/en-au/lifecycle/products/windows-7",
+        "os_family": "windows",
+        "os_flavour": "windows7"
+    },
+    {
         "name": "Windows10",
         "iso_url": null,
         "help": "https://www.microsoft.com/en-us/software-download/windows10ISO",
@@ -14,18 +28,32 @@
         "os_flavour": "windows11"
     },
     {
-        "name": "WindowsXP",
+        "name": "WindowsServer2008",
         "iso_url": null,
-        "help": "https://support.microsoft.com/en-us/windows/windows-xp-support-has-ended-47b944b8-f4d3-82f2-9acc-21c79ee6ef5e",
+        "help": "https://learn.microsoft.com/it-it/iis/install/installing-iis-7/install-windows-server-2008-and-windows-server-2008-r2",
         "os_family": "windows",
-        "os_flavour": "windowsxp"
+        "os_flavour": "windowssrv2008"
     },
     {
-        "name": "Windows7",
+        "name": "WindowsServer2016",
         "iso_url": null,
-        "help": "https://learn.microsoft.com/en-au/lifecycle/products/windows-7",
+        "help": "https://www.microsoft.com/evalcenter/evaluate-windows-server-2016",
         "os_family": "windows",
-        "os_flavour": "windows7"
+        "os_flavour": "windowssrv2016"
+    },
+    {
+        "name": "WindowsServer2019",
+        "iso_url": null,
+        "help": "https://www.microsoft.com/evalcenter/evaluate-windows-server-2019",
+        "os_family": "windows",
+        "os_flavour": "windowssrv2019"
+    },
+    {
+        "name": "WindowsServer2022",
+        "iso_url": null,
+        "help": "https://www.microsoft.com/evalcenter/evaluate-windows-server-2022",
+        "os_family": "windows",
+        "os_flavour": "windowssrv2019"
     },
     {
         "name": "Ubuntu",
