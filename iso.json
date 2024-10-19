@@ -53,7 +53,7 @@
         "iso_url": null,
         "help": "https://www.microsoft.com/evalcenter/evaluate-windows-server-2022",
         "os_family": "windows",
-        "os_flavour": "windowssrv2019"
+        "os_flavour": "windowssrv2022"
     },
     {
         "name": "Ubuntu",
