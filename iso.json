@@ -28,6 +28,13 @@
         "os_flavour": "windows11"
     },
     {
+        "name": "WindowsServer2003",
+        "iso_url": null,
+        "help": "",
+        "os_family": "windows",
+        "os_flavour": "windowssrv2003"
+    },
+    {
         "name": "WindowsServer2008",
         "iso_url": null,
         "help": "https://learn.microsoft.com/it-it/iis/install/installing-iis-7/install-windows-server-2008-and-windows-server-2008-r2",
