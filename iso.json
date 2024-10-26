@@ -35,6 +35,13 @@
         "os_flavour": "windowssrv2008"
     },
     {
+        "name": "WindowsServer2012",
+        "iso_url": null,
+        "help": "https://www.microsoft.com/evalcenter/evaluate-windows-server-2012",
+        "os_family": "windows",
+        "os_flavour": "windowssrv2012"
+    },
+    {
         "name": "WindowsServer2016",
         "iso_url": null,
         "help": "https://www.microsoft.com/evalcenter/evaluate-windows-server-2016",
