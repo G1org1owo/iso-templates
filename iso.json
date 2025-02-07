@@ -4,154 +4,239 @@
         "iso_url": null,
         "help": "https://support.microsoft.com/en-us/windows/windows-xp-support-has-ended-47b944b8-f4d3-82f2-9acc-21c79ee6ef5e",
         "os_family": "windows",
-        "os_flavour": "windowsxp"
+        "os_flavour": "windowsxp",
+        "os_version": "xp"
     },
     {
         "name": "Windows7",
         "iso_url": null,
         "help": "https://learn.microsoft.com/en-au/lifecycle/products/windows-7",
         "os_family": "windows",
-        "os_flavour": "windows7"
+        "os_flavour": "windows7",
+        "os_version": "7"
     },
     {
         "name": "Windows10",
         "iso_url": null,
         "help": "https://www.microsoft.com/en-us/software-download/windows10ISO",
         "os_family": "windows",
-        "os_flavour": "windows10"
+        "os_flavour": "windows10",
+        "os_version": "10"
     },
     {
         "name": "Windows11",
         "iso_url": null,
         "help": "https://www.microsoft.com/en-us/software-download/windows11",
         "os_family": "windows",
-        "os_flavour": "windows11"
+        "os_flavour": "windows11",
+        "os_version": "11"
     },
     {
         "name": "WindowsServer2003",
         "iso_url": null,
         "help": "",
         "os_family": "windows",
-        "os_flavour": "windowssrv2003"
+        "os_flavour": "windowssrv2003",
+        "os_version": "srv2003"
     },
     {
         "name": "WindowsServer2008",
         "iso_url": null,
         "help": "https://learn.microsoft.com/it-it/iis/install/installing-iis-7/install-windows-server-2008-and-windows-server-2008-r2",
         "os_family": "windows",
-        "os_flavour": "windowssrv2008"
+        "os_flavour": "windowssrv2008",
+        "os_version": "srv2008"
     },
     {
         "name": "WindowsServer2012",
         "iso_url": null,
         "help": "https://www.microsoft.com/evalcenter/evaluate-windows-server-2012",
         "os_family": "windows",
-        "os_flavour": "windowssrv2012"
+        "os_flavour": "windowssrv2012",
+        "os_version": "srv2012"
     },
     {
         "name": "WindowsServer2016",
         "iso_url": null,
         "help": "https://www.microsoft.com/evalcenter/evaluate-windows-server-2016",
         "os_family": "windows",
-        "os_flavour": "windowssrv2016"
+        "os_flavour": "windowssrv2016",
+        "os_version": "srv2016"
     },
     {
         "name": "WindowsServer2019",
         "iso_url": null,
         "help": "https://www.microsoft.com/evalcenter/evaluate-windows-server-2019",
         "os_family": "windows",
-        "os_flavour": "windowssrv2019"
+        "os_flavour": "windowssrv2019",
+        "os_version": "srv2019"
     },
     {
         "name": "WindowsServer2022",
         "iso_url": null,
         "help": "https://www.microsoft.com/evalcenter/evaluate-windows-server-2022",
         "os_family": "windows",
-        "os_flavour": "windowssrv2022"
+        "os_flavour": "windowssrv2022",
+        "os_version": "srv2022"
     },
     {
         "name": "Ubuntu",
-        "iso_url": "https://releases.ubuntu.com/22.04.2/ubuntu-22.04.2-desktop-amd64.iso",
+        "iso_url": "http://ubuntu.mirror.garr.it/ubuntu-releases/noble/ubuntu-24.04.1-desktop-amd64.iso",
         "help": "",
         "os_family": "linux",
-        "os_flavour": "ubuntu"
+        "os_flavour": "ubuntu",
+        "os_version": "24.04-desktop-LTS"
+    },
+    {
+        "name": "Ubuntu",
+        "iso_url": "http://ubuntu.mirror.garr.it/ubuntu-releases/noble/ubuntu-24.04.1-live-server-amd64.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "ubuntu",
+        "os_version": "24.04-server-LTS"
+    },
+    {
+        "name": "Ubuntu",
+        "iso_url": "http://ubuntu.mirror.garr.it/ubuntu-releases/oracular/ubuntu-24.10-desktop-amd64.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "ubuntu",
+        "os_version": "24.10-desktop"
+    },
+    {
+        "name": "Ubuntu",
+        "iso_url": "http://ubuntu.mirror.garr.it/ubuntu-releases/oracular/ubuntu-24.10-live-server-amd64.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "ubuntu",
+        "os_version": "24.10-server"
     },
     {
         "name": "Pop!_OS",
-        "iso_url": "https://iso.pop-os.org/22.04/amd64/nvidia/23/pop-os_22.04_amd64_nvidia_23.iso",
+        "iso_url": "https://iso.pop-os.org/22.04/amd64/intel/49/pop-os_22.04_amd64_intel_49.iso",
         "help": "",
         "os_family": "linux",
-        "os_flavour": "pop"
+        "os_flavour": "pop",
+        "os_version": "22.04"
+    },
+    {
+        "name": "Pop!_OS",
+        "iso_url": "https://iso.pop-os.org/22.04/amd64/nvidia/49/pop-os_22.04_amd64_nvidia_49.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "pop",
+        "os_version": "22.04-nvidia"
     },
     {
         "name": "Mint",
-        "iso_url": "https://mirror.init7.net/linuxmint-iso/stable/21.1/linuxmint-21.1-cinnamon-64bit.iso",
+        "iso_url": "http://linuxmint.mirror.garr.it/linuxmint/iso/stable/22.1/linuxmint-22.1-cinnamon-64bit.iso",
         "help": "",
         "os_family": "linux",
-        "os_flavour": "mint"
+        "os_flavour": "mint",
+        "os_version": "22.1"
+    },
+    {
+        "name": "NixOS",
+        "iso_url": "https://channels.nixos.org/nixos-24.11/latest-nixos-gnome-x86_64-linux.iso",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "nixos",
+        "os_version": "24.11"
     },
     {
         "name": "ArchLinux",
-        "iso_url": "https://geo.mirror.pkgbuild.com/iso/2023.03.01/archlinux-2023.03.01-x86_64.iso",
+        "iso_url": "http://archlinux.mirror.garr.it/archlinux/iso/latest/archlinux-2025.02.01-x86_64.iso",
         "help": "https://archlinux.org",
         "os_family": "linux",
-        "os_flavour": "arch"
-    },
-    {
-        "name": "Manjaro",
-        "iso_url": "https://download.manjaro.org/xfce/23.0/manjaro-xfce-23.0-230903-linux65.iso",
-        "help": "https://manjaro.org",
-        "os_family": "linux",
-        "os_flavour": "manjaro"
+        "os_flavour": "arch",
+        "os_version": "2025.02.01"
     },
     {
         "name": "TempleOS",
         "iso_url": "https://templeos.org/Downloads/TempleOS.ISO",
         "help": "https://templeos.org",
         "os_family": "linux",
-        "os_flavour": "temple"
+        "os_flavour": "temple",
+        "os_version": "N/A"
     },
     {
         "name": "Debian",
-        "iso_url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.6.0-amd64-netinst.iso",
+        "iso_url": "http://debian.mirror.garr.it/debian-cd/12.9.0/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso",
         "help": "",
         "os_family": "linux",
-        "os_flavour": "debian"
+        "os_flavour": "12.9"
     },
     {
         "name": "Fedora",
-        "iso_url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso",
+        "iso_url": "http://fedora.mirror.garr.it/fedora/linux/releases/41/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-41-1.4.iso",
         "help": "https://getfedora.org/en/workstation/download/",
         "os_family": "linux",
-        "os_flavour": "fedora"
+        "os_flavour": "fedora",
+        "os_version": "41-workstation"
+    },
+    {
+        "name": "Fedora Silverblue",
+        "iso_url": "http://fedora.mirror.garr.it/fedora/linux/releases/41/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-41-1.4.iso",
+        "help": "https://getfedora.org/en/workstation/download/",
+        "os_family": "linux",
+        "os_flavour": "fedora",
+        "os_version": "41-silverblue"
+    },
+    {
+        "name": "ChimeraOS",
+        "iso_url": "https://github.com/ChimeraOS/install-media/releases/download/2025-01-24_7a488b9/chimeraos-2025.01.24-x86_64.iso",
+        "help": "https://chimeraos.org",
+        "os_family": "linux",
+        "os_flavour": "chimera",
+        "os_version": "2025.01.24"
     },
     {
         "name": "Rocky Linux",
-        "iso_url": "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-minimal.iso",
+        "iso_url": "http://rockylinux.mirror.garr.it/9.5/isos/x86_64/Rocky-9-latest-x86_64-minimal.iso",
         "help": "",
         "os_family": "linux",
-        "os_flavour": "rocky9"
+        "os_flavour": "rocky",
+        "os_version": "9.5"
     },
     {
         "name": "AlmaLinux",
-        "iso_url": "http://almalinux.mirror.garr.it/9.1/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso",
+        "iso_url": "http://almalinux.mirror.garr.it/9.5/isos/x86_64/AlmaLinux-9-latest-x86_64-minimal.iso",
         "help": "",
         "os_family": "linux",
-        "os_flavour": "almalinux"
+        "os_flavour": "almalinux",
+        "os_version": "9.5"
     },
     {
         "name": "OpenMandriva",
-        "iso_url": "https://archive.org/download/openmandriva.rome-23.01-plasma.x86_64/openmandriva.rome-23.01-plasma.x86_64.iso",
+        "iso_url": "https://file-store.openmandriva.org/api/v1/file_stores/05f77b14863e5c75e30cf801ce35a64e8bc7726f",
         "help": "",
         "os_family": "linux",
-        "os_flavour": "openmandriva"
+        "os_flavour": "openmandriva",
+        "os_version": "5.0"
     },
     {
-        "name": "AtomOS",
-        "iso_url": "https://repo.elemento.cloud/iso/AtomOS.iso",
+        "name": "EndeavourOS",
+        "iso_url": "https://mirror.rznet.fr/endeavouros/iso/EndeavourOS_Endeavour_neo-2024.09.22.iso",
         "help": "",
         "os_family": "linux",
-        "os_flavour": "atomos"
+        "os_flavour": "endeavour",
+        "os_version": "2024.09.22"
+    },
+    {
+        "name": "OpenBSD",
+        "iso_url": "http://openbsd.mirror.garr.it/pub/OpenBSD/7.6/amd64/install76.iso",
+        "help": "",
+        "os_family": "bsd",
+        "os_flavour": "openbsd",
+        "os_version": "7.6"
+    },
+    {
+        "name": "Android x86",
+        "iso_url": "https://sourceforge.net/projects/osboxes/files/v/vb/1-A-d/9.0/R2/andr_9.0-r2-VB-32bit.7z/download",
+        "help": "",
+        "os_family": "android",
+        "os_flavour": "androidx86",
+        "os_version": "9.0"
     }
 ]
 
