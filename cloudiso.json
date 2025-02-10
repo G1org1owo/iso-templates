@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Ubunt",
+        "iso_url": "https://cloud-images.ubuntu.com/oracular/current/oracular-server-cloudimg-amd64.img",
+        "help": "",
+        "os_family": "linux",
+        "os_flavour": "ubuntu",
+        "os_version": "24.10-server-cloud"
+    }
+]
