@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install osinfo-query
-        run: apt install libosinfo-bin
+        run: sudo apt install libosinfo-bin
 
       - name: Load osinfo DB
         run: osinfo=$(osinfo-query os --fields=short-id,version,id)
