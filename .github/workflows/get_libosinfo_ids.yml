@@ -1,0 +1,31 @@
+name: Get libosinfo IDs
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install osinfo-query
+        run: apt install libosinfo-bin
+
+      - name: Load osinfo DB
+        run: osinfo=$(osinfo-query os --fields=short-id,version,id)
+
+      - name: Run a multi-line script
+        run: |
+          jq -r ".[] | .os_flavour +\" \" + .os_version" iso.json | while read -r os version; do 
+            echo "$osinfo" | grep $os | grep $version 
+          done
